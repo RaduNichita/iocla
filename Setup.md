@@ -63,11 +63,13 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDdawfZAFXk8CUJH1znkUjApV1uPMnWw650CJA09z3C
 
 * Press `Add SSH Key`. If requested, complete with your password.
 
+
 # Forking the official repository
 
 * From a browser, access the [repo link](https://github.com/systems-cs-pub-ro/iocla) and press on the `Fork` button.
 
 ![](images/fork.jpeg)
+
 
 # Cloning the fork 
 
@@ -114,10 +116,28 @@ git commit -m "add solution for lab<xy>"
 git push -u origin lab<xy>
 ```
 
+# Create a pull-request (PR)
+
+* From the browser, access the fork link. You should see something similar:
+
+![](images/preview.jpeg)
+
+
+# Giving permissions to assistant
+
+* From the browser, access the fork link and go to `Settings` tab: 
+![](images/settings.jpeg)
+
+* Go to `Collaborators` tab:
+![](images/collaborators.jpeg)
+
+* Press on `Add people` green button and add the assistant
+
+
 
 
 # Other resources:
 
-* (`Git tips ROSEDU`, written by RD)[https://techblog.rosedu.org/git-good-practices.html]
+* [`Git tips ROSEDU`, written by RD](https://techblog.rosedu.org/git-good-practices.html)
 
-* (`SD-CA` tutorial for ClassRoom)[https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/tutorial-github-classroom]
+* [`SD-CA` tutorial for ClassRoom](https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/tutorial-github-classroom)
