@@ -120,7 +120,21 @@ git push -u origin lab<xy>
 
 * From the browser, access the fork link. You should see something similar:
 
-![](images/preview.jpeg)
+![](images//preview.jpeg)
+
+* At the base repository, **you need to change** to be your **forked master**, **not the official repo master**
+
+![This is wrong](images/wrong.jpeg)
+
+* Select your branch
+
+![](images/branch.jpeg)
+
+![This is ok](images/correct.jpeg)
+
+* Add the assistant for review (make sure it's added using the steps from the `Giving permissions to assistant` section)
+
+![](images/review.jpeg)
 
 
 # Giving permissions to assistant
@@ -133,11 +147,12 @@ git push -u origin lab<xy>
 
 * Press on `Add people` green button and add the assistant
 
+![](images/add.jpeg)
 
 
 
 # Other resources:
 
-* [`Git tips ROSEDU`, written by RD](https://techblog.rosedu.org/git-good-practices.html)
+* [`Git tips ROSEDU`](https://techblog.rosedu.org/git-good-practices.html), written by RD
 
 * [`SD-CA` tutorial for ClassRoom](https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/tutorial-github-classroom)
